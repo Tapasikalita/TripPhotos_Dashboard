@@ -5,11 +5,11 @@ import streamlit as st
 # -----------------------------
 # Replace this with your actual Google Drive folder ID
 # Example link: https://drive.google.com/drive/folders/1AbCdEfGhIjKlMnOpQrStUvWxYz?usp=sharing
-FOLDER_ID = "YOUR_FOLDER_ID_HERE"
+FOLDER_ID = "1W7ecBMXSIHGVEEKZIkYqFZmHGx3miHk5"
 
 # Function to build public embed link
 def get_public_folder_link(folder_id):
-    return f"https://drive.google.com/embeddedfolderview?id={folder_id}#grid"
+    return f"https://drive.google.com/drive/folders/1W7ecBMXSIHGVEEKZIkYqFZmHGx3miHk5?usp=drive_link"
 
 # -----------------------------
 # STREAMLIT APP
