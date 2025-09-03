@@ -9,7 +9,7 @@ FOLDER_ID = "1W7ecBMXSIHGVEEKZIkYqFZmHGx3miHk5"
 
 # Function to build public embed link
 def get_public_folder_link(folder_id):
-    return f"https://drive.google.com/drive/folders/1W7ecBMXSIHGVEEKZIkYqFZmHGx3miHk5?usp=drive_link"
+    return f"https://drive.google.com/drive/folders/1W7ecBMXSIHGVEEKZIkYqFZmHGx3miHk5?usp=sharing"
 
 # -----------------------------
 # STREAMLIT APP
@@ -33,3 +33,4 @@ st.markdown("### 📂 Photo Gallery")
 st.components.v1.iframe(get_public_folder_link(FOLDER_ID), width=1000, height=600)
 
 st.info("✅ New photos added to Google Drive will appear here automatically.")
+
