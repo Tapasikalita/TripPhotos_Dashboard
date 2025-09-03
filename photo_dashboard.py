@@ -35,3 +35,4 @@ st.components.v1.iframe(get_public_folder_link(FOLDER_ID), width=1000, height=60
 st.info("✅ New photos added to Google Drive will appear here automatically.")
 
 
+
